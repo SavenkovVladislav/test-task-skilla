@@ -1,0 +1,115 @@
+.root {
+	grid-row-start: 1;
+	grid-column-start: 2;
+
+	grid-row-end: 2;
+	grid-column-end: 3;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 21px;
+	color: rgba(137, 156, 177, 1);
+}
+
+.barsGroup {
+	display: flex;
+	gap: 56px;
+	margin-left: 86px;
+}
+
+.barsItem {
+	p {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 21px;
+
+		color: rgba(18, 41, 69, 1);
+	}
+
+	&_green {
+		p {
+			span {
+				color: rgba(0, 167, 117, 1);
+			}
+		}
+	}
+	&_yellow {
+		p {
+			span {
+				color: rgba(255, 184, 0, 1);
+			}
+		}
+	}
+	&_red {
+		p {
+			span {
+				color: rgba(234, 26, 79, 1);
+			}
+		}
+	}
+	.barsRow {
+		width: 156px;
+		height: 6px;
+
+		margin-top: 7px;
+
+		background-color: rgba(222, 230, 245, 1);
+
+		border-radius: 12px;
+
+		div {
+			width: 67px;
+			height: 100%;
+
+			border-top-left-radius: 12px;
+			border-bottom-left-radius: 12px;
+		}
+
+		&_green {
+			div {
+				background-color: rgba(40, 168, 121, 1);
+			}
+		}
+		&_yellow {
+			div {
+				background-color: rgba(255, 184, 0, 1);
+			}
+		}
+		&_red {
+			div {
+				background-color: rgba(234, 26, 79, 1);
+			}
+		}
+	}
+}
+
+.search {
+	margin-left: 197px;
+
+	cursor: pointer;
+}
+
+.userBlock {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+
+	margin-left: 64px;
+}
+
+.avatarBlock {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+
+	margin-left: 41px;
+}
+.arrow {
+	cursor: pointer;
+}

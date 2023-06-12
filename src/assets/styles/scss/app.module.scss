@@ -1,0 +1,11 @@
+@import './libs/normalize';
+
+.root {
+	display: grid;
+
+	grid-template-columns: 240px 1fr;
+	grid-template-rows: 64px 1fr;
+
+	gap: 0px;
+	height: 100%;
+}
